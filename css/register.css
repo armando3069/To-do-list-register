@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading {
+    position: absolute;
+    text-align: center;
+    
+    width: 100%;
+}
+
+#particles-js {
+    background: rgb(255, 255, 255);
+    height: 100%;
+
+}
+
+
+.login-form {
+    width: 340px;
+    margin: 100px auto;
+  	font-size: 15px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #d8d8d8;
+    border-radius: 10px;
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+    font-size: 40px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 10px;
+}
+.btn {        
+     font-size: 15px;
+     width: 280px;
+     font-weight: bold;
+}
+#linkus{
+    text-decoration: underline;
+    color: rgb(77, 66, 66);
+}
+#linkus:hover{
+    font-size: 20px;
+}
+
+.btn:hover
+{
+    transition: 500ms;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  
+}
+.nav-item:hover
+{
+ font-size: 25px;
+}

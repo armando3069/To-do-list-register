@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./css/register.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap Simple Login Form</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+ 
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a href="./init.html" class="navbar-brand"><h3><i class="bi bi-gem"></i>Gem</h3></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link ">  <i class="bi-house-door"></i> Home</a>
+                        <a href="#" class="nav-item nav-link"> <i class="bi-person"> </i> Profil</a>
+                        
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="./login.html" class="nav-item nav-link"> <i class="bi bi-door-open"></i>Login</a>
+                        <a href="./register.html" class="nav-item nav-link"><i class="bi bi-person-plus"></i> Register</a>
+    
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+
+
+<div class="login-form">
+    <form action="./register.php" method="post">
+        <h2 class="text-center mb-3">Register</h2> 
+
+        <div class="form-group mb-3">
+            <input type="text" class="form-control" name="name" placeholder="Nume" required="required">
+        </div>   
+
+        <div class="form-group mb-3">
+            <input type="text" class="form-control" name="surname" placeholder="Prenume" required="required">
+        </div>
+
+        <div class="form-group mb-3">
+            <input type="text" class="form-control" name="email" placeholder="Email" required="required">
+        </div>
+
+        <div class="form-group mb-3">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+
+        <div class="form-group mb-3">
+            <button type="submit" class="btn btn-dark btn-block">Sign-Up</button>
+        </div>     
+    </form>
+</div>
+      
+
+</body>
+</html>
